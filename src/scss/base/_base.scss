@@ -1,0 +1,13 @@
+$primary-color: #242424;
+$secondary-color: #2e2e2e;
+$light-color: #57c5a0;
+$dark-color: #fff;
+$light-grey: #2e2e2e;
+
+*{
+  font: 12px Aller, sans-serif;
+}
+
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active{
+  color: $light-color !important;
+}

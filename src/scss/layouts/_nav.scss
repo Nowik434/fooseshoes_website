@@ -1,0 +1,88 @@
+.navbar{
+  height: 60px;
+  background: #fff;
+  letter-spacing: .25px;
+  padding: 0 !important;
+  *{
+    font-size: 16px !important;
+  }
+  li{
+    border-left: 1px solid #eee;
+    padding: 15px 20px;
+    transition: .5s ease-in-out;
+    height: 60px;
+    .nav-link{
+      font-weight: 400 !important;
+      color: black !important;
+    }
+    .nav-link:hover{
+      color: $light-color !important;
+      transition: .5s ease-in-out !important;
+    }
+  }
+  li:last-child{
+    border-right: 1px solid #eee;
+  }
+}
+
+  //right side
+  .nav-star::before{
+    background: url(../../img/spritesheets.png);
+    background-position: 64px 0;
+    display: inline-block;
+    position: relative;
+    top: 2px;
+    width: 16px;
+    height: 16px;
+    content: "";
+  }
+
+  .nav-cart::before{
+    background: url(../../img/spritesheets.png);
+    background-position: 16px 0;
+    display: inline-block;
+    position: relative;
+    top: 2px;
+    width: 16px;
+    height: 16px;
+    content: "";
+  }
+
+.nav-star:hover::before{
+  background-position: -16px -16px;
+}
+
+.nav-cart:hover::before{
+  background-position: -64px -16px;
+}
+
+.nav-star span{
+  background-color: #adadad;
+  color: #fff;
+  padding: 2px 5px;
+  border-radius: 3px;
+  font-weight: 800;
+  font-size: 12px !important;
+}
+
+.nav-cart span{
+  background-color: $light-color;;
+  color: #fff;
+  padding: 2px 5px;
+  border-radius: 3px;
+  font-weight: 800;
+  font-size: 12px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

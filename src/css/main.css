@@ -1,0 +1,10 @@
+@charset "UTF-8";
+/*
+Author: Paweł Nowicki
+*/
+/* BASE - Base styles, variables, mixins, etc */
+/* MODULES - Individual site components */
+/* LAYOUTS - Page layout styles */
+.head .logo {
+  background-image: url(../../img/logo.png);
+}
